@@ -13,7 +13,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    font-family: 'poppins';
 }
 
 nav .table {
@@ -165,7 +165,7 @@ font-size: larger;
 }
 
 .info_box {
-    margin-top: 1.5%;
+    margin-top: 4%;
 }
 
 

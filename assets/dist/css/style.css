@@ -170,7 +170,7 @@ font-size: larger;
 
 
 .entry_text {
-    background: linear-gradient(190deg, lightskyblue 20%, lightgrey);
+    background: linear-gradient(-190deg,lightblue, lightgreen);
     height: 100%;
     margin: -4% 0;
     padding: 10% 15px 5% 15px;

@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>actualités</title>
-    <link rel="shortcut icon" href="assets/img/logoesis.png" type="image/x-icon">
+    <title>Esisalama, une ecole un métier</title>
+    <link rel="icon" href="assets/img/logoesis.png" type="image/x-icon">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
     <link href="assets/dist/css/style.css" rel="stylesheet">
     <link href="assets/dist/css/carousel.css" rel="stylesheet">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">`
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/footers/">
 
+
+    <!-- CSS only -->
 </head>
+<style>
+  body {
+    font-size: 1.1em;
+  }
+
+  ul {
+    list-style: none;
+    text-transform: capitalize;
+  }
+</style>
 <body  style="background:rgb(248, 249, 250)">
   <div id="navbar">
     <nav>
@@ -53,7 +65,7 @@
                         <img class="opacity" src="data:image/png;base64,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"><br>résultats</a>
                     </td>
                     <td>
-                        <a href="index.html">
+                        <a href="#">
                         <img class="opacity" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABmJLR0QA/wD/AP+gvaeTAAACY0lEQVR4nO3cv0sbcRzG8SelfPU04olLJvG2Ig6xQkuH1iGFCk5Cx3Tq4ta1f4JrN/8Bt0LnQuvgUtohFTrodji1Q6FXmnjxFh3EhEaIfPLc5b5pn9cUJcnxffPhfmhygEiZKtcPnu1+uihyQ+9fP6rc/qz8jGs9d4rcyP/g7uAvXj1/mOsG3rz9nOv7WW0/fZDr+7378OWvnzWBJAUkKSBJAUkKSLpxFC77qJm3waNm3jSBJJ0HGuk8MGc3JrBo/9o1tyaQNPYJvLa3k+++dmevnH2tJpCkgCQFJCkgSQFJ5qNw/D3Bx1aMCoDGeoTlWjjShss6ag768fM3vp7EqFwA9ZUItcV50+vNE3jQitFJM7TTDAet2Ppy7xwdx+h2M6TnGY6O7esxT2A7zXqP/5xlQ545nC/ngel5fw1p174e7QNJCkhSQJICkhSQpIAkBSSV9vfA23w7TbB/eHVi29yIsLo02hVP0bydwP3DGEknQ9LJeiF95G3ApNO/KvjVHv2Kp2jeBpwUCkhSQJICkhSQpIAkBSQpIEkBSQpIUkCSApIUkKSAJAUkKSBJAUkKSFJAkgKSFJBkDlgNXO/x3Iwb8szJEEz11xBM29djDthYj1ANHOZmHBr3I/MGfVNfiRBMOQTTDmv37OsxfzJhuRbi5daaeUNW4azr/W94oVrcpNcW57H5uD7y673dBzY3IoSzDgtVh+YTfyfd28/GrC6F2H1R/KSzvJ3ASaGAJAUkKSBJAUkKSFJAUml3LhrXtzV15yLPlXbnonF9W1N3LvKcApIUkKSAJAUk6TyQpAkUmWiXlm6JMEI+1TsAAAAASUVORK5CYII="><br>recours</a>
                     </td>
                     <td>
@@ -76,215 +88,91 @@
             <span></span>
         </div>
     </div>
+  <div class="bg-light" style="padding: 2.5%;margin-top:-5%;text-align:justify;">
+    <h3 style="margin: 5px;">Cursus académique</h3>
+    <hr style="width: 50px; margin: 5px 0;border: 2px solid; color: red;">
+    <br>  
+    <p> 
+        L’<abbr title="Ecole Supérieure d'Informatique SALAMA">ESIS</abbr> organise 
+        <em>2 cycles</em> de formations selon le système 
+        <abbr title="Licence-Master-Doctorat">LMD</abbr> : le 
+        <strong>Graduat</strong> et le <strong>Master</strong>. 
+    </p> 
+    <p> Le graduat forme des ingénieurs techniciens de niveau 
+        <em>BAC+3</em> dont le cycle de formation comprend 
+        <em>l’année préparatoire et trois années de graduat</em>. 
+        Le cycle de master des ingénieurs de niveau 
+        <em>BAC+5</em> pour deux années de formation : 
+        <em>master 1 et master 2</em>. 
+    </p> 
+    <p> 
+    <strong><span class="text-muted">Le cycle de graduat</span></strong> se structure sur 
+    <em>5 filières</em> regroupées en <em>3 grandes familles</em> : </p> 
+    <ul> 
+        <li>Génie Logiciel avec 2 options : Systèmes Informatiques et Gestion informatique</li> 
+        <li>Réseaux avec 2 options : Administration des Systèmes et Télécommunications</li> 
+        <li>Design et Multimédia</li> 
+    </ul> 
+    <p>
+        <strong><span class="text-muted">Au niveau du Master</span></strong>, les spécialisations sont :
+    </p> 
+    <ul> 
+        <li>Génie logiciel</li> 
+        <li>Réseaux et mobilité</li> 
+        <li>Méthodes informatiques appliquées à la gestion des entreprises (MIAGE)</li> 
+    </ul> 
+    <h3>Filières organisées</h3>
+    <hr style="width: 50px; margin: 5px 0;border: 2px solid red;">
+    <br>  
+    <ul style="list-style:decimal;">
+      <li>
+        <h4><u>La filière Génie logiciel Systèmes informatiques</u></h4>
+        <p> L’Ingénieur <em>Logiciel</em> ou l’Ingénieur <em>Système</em> a les compétences ci-après :
+          <br>Concepteur et développeur de n’importe quelle application
+          <br>Administrateur des bases de données 
+        </p> 
+        <p> L’Ingénieur <em>Logiciel</em> ou l’Ingénieur <em>Système</em> doit pouvoir être capable de :
+            <br> réaliser l’analyse et la conception d’un système d’informations ; concevoir et modéliser un logiciel ; développer un logiciel dans un langage approprié ; exploiter une base de données, quel que soit le système de gestion de celle-ci ; maîtriser différents langages de programmation afin de choisir celui qui est le plus approprié ; utiliser des technologies et outils récents, en programmation et modélisation ; gérer un projet informatique, notamment du point de vue de l’organisation. 
+        </p> 
+      </li>
+      <li>
+        <h4><u>La filière Génie logiciel Gestion informatique</u></h4>
+        <p> L’Ingénieur <em>Logiciel spécialisé dans la Gestion</em> a les compétences ci-après :
+          <br> - Analyste programmeur<br> - Manager des systèmes d’informations de gestion 
+        </p> 
+        <p> L’Ingénieur <em>Logiciel spécialisé dans la Gestion</em> participe à la conception et au développement de logiciels de gestion. Il doit être capable de :
+          <br> développer un logiciel de gestion dans tout domaine de la gestion (comptabilité, gestion des stocks, gestion des ressources humaines, etc.) ; utiliser des outils avancés dans la conception de logiciels de gestion ; exploiter un progiciel de gestion intégré ; conseiller sur l’emploi de logiciels de gestion. 
+        </p>
+      </li>
+      <li>
+        <h4><u>La filière Réseaux et Administration système</u></h4>
+        <p> L’ingénieur <em>Administrateur Systèmes et Réseaux</em> assure le bon fonctionnement technique du système informatique d’une entreprise par le conseil, la mise en place du nouveau matériel, la sécurité informatique et l’administration quotidienne du réseau. </p> 
+        <p> L’ingénieur <em>Administrateur Systèmes et Réseaux</em> est capable de : <br> administrer des systèmes informatiques ; gérer le parc informatique d’une entreprise, allant de quelques équipements à plusieurs centaines ; administrer des serveurs, notamment de bases de données ; assurer la maintenance préventive, corrective et évolutive des équipements informatiques. </p> 
 
-    <div style="background-color: lightgray;">
-      <div class="actualites">
-        <div class="album py-5 bg-light">
-          <h2>actualités</h2>
-          <center><hr style="width: 200px; border: 2px solid black;"></center>
-          <br>
-          <br>
-          <br>
-          <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-visite.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/construction_image_02.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/construction_image_03.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-visite.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-visite.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-visite.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-jeux-salesiens-1.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-sousse-2.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/img-04042022-125212.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-femme-2.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-femme-3.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top"  style="background:url('assets/img/actualite/esis-femme-4.jpg'); background-size:cover; background-repeat:no-repeat" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espace réservé : Miniature" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="612482"><title _mstHash="1686555" _mstTextHash="289328">Espace réservé</title>
-                    <rect ></rect>
-                  </svg>
-      
-                  <div class="card-body">
-                    <p class="card-text" _msthash="1937507" _msttexthash="17303520">Il s’agit d’une carte plus large avec un texte de soutien ci-dessous comme une introduction naturelle à un contenu supplémentaire. Ce contenu est un peu plus long.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary" style="width: 345px;" _msthash="3235427" _msttexthash="31811">consulter</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      </li>
+      <li>
+        <h4><u>La filière Réseaux et Télécommunications</u></h4>
+        <p> L’Ingénieur <em>Télécoms et Réseaux</em> a une connaissance des différents moyens de Télécommunications. Il intervient sur les différents équipements d’infrastructures et les terminaux des réseaux voix et données. </p> 
+        <p> L’Ingénieur <em>Télécoms et Réseaux</em> est capable de : <br> comprendre le fonctionnement des réseaux téléphoniques analogiques et numériques ; administrer des réseaux de téléphonie mobiles de toutes générations (GSM, GPRS, EDGE, UMTS…) ; concevoir et maintenir des réseaux informatiques, ainsi que des réseaux Voix sur IP ; comprendre et mettre en place des communications satellitaires ; maintenir et dépanner des réseaux (téléphonique &amp; informatique). </p>
+      </li>
+      <li>
+        <h4><u>La filière Design et Multimédia</u></h4>
+        <p> L’Ingénieur en <em>Design et Multimédia</em> est concepteur dans les domaines suivants: 
+            <ul>
+              <li>infographie (création et traitement d’image, animation et graphisme),</li>
+              <li>Publicité et marketing,</li>
+              <li>maîtrise du multimédias (vidéo, audio, effet spéciaux),</li>
+              <li>web design (interface graphique et administration de site),</li>
+              <li>création d’identité visuelle et d'entreprise de service en création graphique.</li>
+            </ul>                       
+        </p> 
+        <p> L’Ingénieur en <em>Design et Multimédia</em> est capable de :
+            <br> faire de la création d’image en s’adaptant à la demande ; concevoir un site web et le développer ; se servir des outils informatiques à sa disposition (création/animation 2D et 3D) ; Réalisation et traitement vidéo et audio ; créer des éléments interactifs (présentation d’entreprise, projet, logiciel) offrir un support visuel à un projet environnemental, de construction ou d’aménagement intérieur/extérieur (maquette et modélisation 3D). 
+        </p>
+      </li>
+    </ul>
+  </div>
 
-        </div>
-        </div>
-    </div>
 </body>
 <div class="container"">
   <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
@@ -360,8 +248,8 @@
     </div>
   </footer>
 </div>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-<script src="assets/dist/js/script.js"></script>
-<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-</html>
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <script src="assets/dist/js/script.js"></script>
+      <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+      </html>

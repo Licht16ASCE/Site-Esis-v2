@@ -17,22 +17,30 @@ body{
 }
 
 nav .table {
-    padding: 15% 10%;
+    padding: 10% 25%;
+}
+
+a {
+    text-decoration: none;
 }
 
 .table tr {
     border: 0px;
 }
 
+.group  {
+margin-top: 15px;
+}
+
 .table td {
-    padding: 25px 100px;
+    padding: 35px;
     text-align: center;
-    text-transform: capitalize;
-    font-weight: bold;
-    border: 0px;
 }
 
 .table td a {
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 0px;
     transition: 1s;
 }
 
@@ -120,7 +128,6 @@ font-size: larger;
     width: 40px;
     height: 4px;
     background :linear-gradient(45deg, grey,lightskyblue);
-    ;
     border-radius: 15px;
     transition: 1s;
     z-index: 100;
@@ -168,12 +175,22 @@ font-size: larger;
     margin-top: 4%;
 }
 
+.info_box img {
+    object-fit: cover;
+}
+
+.bg-light {
+    padding: 2.5%;
+    margin-top:-5%;
+    text-align:justify;
+}
+
 
 .entry_text {
     background: linear-gradient(-190deg,lightblue, lightgreen);
     height: 100%;
     margin: -4% 0;
-    padding: 10% 15px 5% 15px;
+    padding: 20% 15px 5% 15px;
 }
 /*Parametre bootstrap*/
 .bd-placeholder-img {
@@ -183,11 +200,75 @@ font-size: larger;
     -moz-user-select: none;
     user-select: none;
   }
-
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
+    .entry_text {
+     margin-top: -7.5%;       
+    }
+    .btn.btn-sm.btn-outline-secondary {
+        width: 350px;
+    }
+}
+
+  @media (max-width: 1250px) {
+    nav .table {
+        padding: 20% 12%;
+    }
+    
+    .table tr {
+        border: 0px;
+    }
+    
+    .table td {
+        padding: 17.5px;
+        text-align: center;
+    }
+
+    
+
+    @media (max-width: 768px){
+        .table td a img {
+            height: 35px;
+            width: 35px;
+        }
+
+        nav .table {
+            padding: 0 18%;
+        }
+
+        .float-md-start{
+            display: none;
+        }
+
+        .table td {
+            padding: 8px;
+            text-align: center;
+            display: block;
+        }
+
+        #navbar{
+            top: -125%;
+        }
+
+
+        .info_box {
+            display: none;
+        }
+
+        .entry_text {
+            background: linear-gradient(-190deg,lightblue, lightgreen);
+            height: 100%;
+            margin: -18.25% 0 0 0;
+            padding: 55% 15px 15% 15px;
+        }
+
+        .btn.btn-sm.btn-outline-secondary {
+            width: 275px;
+        }
+    }
+    
   }
 
   .b-example-divider {
